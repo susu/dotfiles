@@ -1,0 +1,106 @@
+
+!  urxvt settings
+urxvt.depth: 4
+
+! vim:ft=xdefaults
+! euphrasia v. 1.0
+! by bohoomil
+
+! Xresources
+URxvt*background:  #000000
+URxvt*foreground:  #fCf4fF
+URxvt*cursorColor: #ffffff
+
+! fg/bg for Xorg apps
+*background:  #CFCFD9
+*foreground:  #1C2027
+
+! black
+*color0:  #192033
+*color8:  #888888
+! red
+*color1:  #A62A3E
+*color9:  #F04758
+! green
+*color2:  #38912B
+*color10: #93C724
+! yellow
+*color3:  #f2fD12
+*color11: #ffff2B
+! blue
+*color4:  #355C9A
+*color12: #45A3E6
+! magenta
+*color5:  #7C4F9F
+*color13: #C953EF
+! cyan
+*color6:  #258F8F
+*color14: #60C6C8
+! white
+*color7:  #f0f0f0
+*color15: #f0f0f0
+
+
+urxvt.visualBell: False
+
+!  enable url-open
+URxvt.perl-ext-common:  default,url-select
+URxvt.keysym.M-u:       perl:url-select:select_next
+URxvt.urlLauncher:      firefox
+URxvt.underlineURLs:    true
+
+
+URxvt.scrollBar: off
+
+! autoscroll
+URxvt*scrollTtyOutput:      false
+URxvt*scrollWithBuffer:     true
+URxvt*scrollTtyKeypress:    true
+
+URxvt*saveLines: 32000
+
+! urxvt.font: xft:inconsolata:pixelsize=13
+! urxvt.font: xft:inconsolata:pixelsize=16
+
+! urxvt.font: xft:consolas:pixelsize=14
+
+! URxvt*font: xft:DejaVu Sans Mono:pixelsize=12:antialias=true:hinting=true
+
+! URxvt*font: xft:tamsyn:pixelsize=17
+
+! urxvt.font: Consolas-14
+
+! URxvt.font:xft:droid sans mono:pixelsize=14
+
+! urxvt.letterSpace: -2
+urxvt.font:     xft:Tamsyn:pixelsize=14:style=Regular:antialias=false
+urxvt.boldFont: xft:Tamsyn:pixelsize=14:style=Bold:antialias=false
+
+
+urxvt.xftAutoHint: true
+
+Xft.dpi: 80
+! Xft.antialias: 1
+! Xft.rgba: rgb
+! #Xft.hinting: 1
+! #Xft.hintstyle: hintfull
+
+! urxvt Alt-arrow fixes
+
+URxvt.keysym.M-Down:        \033[1;3B
+URxvt.keysym.M-Up:          \033[1;3A
+URxvt.keysym.M-Left:        \033[1;3D
+URxvt.keysym.M-Right:       \033[1;3C
+
+! ctrl-arrow fixes
+
+URxvt.keysym.Control-Up:    \033[1;5A
+URxvt.keysym.Control-Down:  \033[1;5B
+URxvt.keysym.Control-Left:  \033[1;5D
+URxvt.keysym.Control-Right: \033[1;5C
+
+URxvt.cursorBlink: 1
+URxvt.cursorUnderline: 0
+
+URxvt*iso14755: False
+
